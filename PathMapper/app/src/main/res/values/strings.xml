@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PathMapper</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyDLlivR1WCLkVsWhrMAjYnoRRdBMQjYsO8
+    </string>
+    <string name="paths_kml_filename">paths_kml</string>
+</resources>
+

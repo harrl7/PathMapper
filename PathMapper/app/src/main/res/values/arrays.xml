@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="trackArray">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </array>
+    <array name="infoArray">
+        <item>Hours</item>
+        <item>Prohibited Items</item>
+        <item>Garden statistics</item>
+        <item>Seasonal Attractions</item>
+    </array>
+    <array name="hoursArray">
+        <item>Winter Glasshouse           10:00am-4:00pm</item>
+        <item>Alpine House   &#160;       9:00am-4:00pm</item>
+        <item>Information centre          10:00am-4:00pm</item>
+        <item>Cafe   &#160;               9:30am-4:30pm</item>
+    </array>
+    <array name="prohibitedArray">
+        <item>● The garden is a pedestrian area. The use of bicycles, rollerblades and skateboards is not allowed and the
+        use of all private vehicles is prohibited except by special permission.</item>
+        <item>● Domestic animals, including dogs are not permitted. Guide dogs are the exception.</item>
+        <item>● Please keep to the paved area of the main pond when feeding ducks.</item>
+    </array>
+    <array name="statisticsArray">
+        <item>Summer temperature:   18.6 degrees</item>
+        <item>Winter temperature:   10.4 degrees</item>
+        <item>Annual Rainfall:      926mm average</item>
+        <item>Area:                 30.4 hectares</item>
+        <item>Altitude:             25m-85m above sea level</item>
+    </array>
+    <array name="seasonalArray">
+        <item>Summer: &#160;
+            Herbaceous borders, Rose Garden, Rock Garden, Herb Garden, Geographic collection</item>
+        <item>Autumn: &#160; Deciduous trees, Arboretum, Azalea Garden</item>
+        <item>Winter: &#160; Australian Plants, early flowering Camellias, Winter Garden Glasshouse, Native Collection</item>
+        <item>Spring: &#160; Flowering cherry trees, spring bulbs, Rhododendron Dell</item>
+    </array>
+    <array name="easyArray">
+        <item>Flat, good surface</item>
+    </array>
+    <array name="mediumArray">
+        <item>Sloped, rough, uneven surface</item>
+    </array>
+    <array name="hardArray">
+        <item>Steep, steps, loose surface</item>
+    </array>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Untitled map</name>
+    <description/>
+
+   <!-- Start of TrackStyles -->
+           <!-- Default Style Settings -->
+             <Style id="TrackLineAndPoly">
+                  <LineStyle>
+                   <color>50F00014</color>
+                   <width>10</width>
+                  </LineStyle>
+                  <PolyStyle>
+                   <color>50143CFF</color>
+                  </PolyStyle>
+             </Style>
+             <Style id="Bookmark_Style">
+               <IconStyle>
+               <Icon> <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href> </Icon>
+               </IconStyle>
+             </Style>
+
+             <Style id="EasyTrackStyle">
+               <LineStyle>
+                   <color>F000CC33</color>
+                   <width>10</width>
+               </LineStyle>
+             </Style>
+
+             <Style id="SecondTrackStyle">
+                 <LineStyle>
+                     <color>507800F0</color>
+                     <width>10</width>
+                 </LineStyle>
+             </Style>
+
+             <Style id="ThirdTrackStyle">
+               <LineStyle>
+                   <color>5014F0FF</color>
+                   <width>10</width>
+               </LineStyle>
+             </Style>
+
+             <Style id="FourthTrackStyle">
+               <LineStyle>
+                 <color>50F00014</color>
+                 <width>10</width>
+               </LineStyle>
+             </Style>
+
+
+       <!-- End of TrackStyles -->
+
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>easy</name>
+        <styleUrl>#EasyTrackStyle</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            170.5178198,-45.8559367,0
+            170.5180438,-45.8559199,0
+            170.518422,-45.8556584,0
+            170.5186191,-45.8555734,0
+            170.518823,-45.85565,0
+            170.5189718,-45.855592,0
+            170.5191623,-45.8557359,0
+            170.519228,-45.855847,0
+            170.5192347,-45.855933,0
+            170.5189879,-45.8561123,0
+            170.518878,-45.8562533,0
+            170.5188592,-45.8563626,0
+            170.5186996,-45.856541,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_item_mode"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="Map Type">
+
+        <menu>
+            <item
+                android:id="@+id/action_dropdown9"
+                android:title="Road Map" />
+            <item
+                android:id="@+id/action_dropdown10"
+                android:title="Hybrid" />
+            <item
+                android:id="@+id/action_dropdown11"
+                android:title="Satellite" />
+            <item
+                android:id="@+id/action_dropdown12"
+                android:title="Terrain" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_item_tracks"
+        android:icon="@drawable/walking"
+        android:title="Walking Track">
+        <menu>
+            <item
+                android:id="@+id/action_dropdown5"
+                android:title="Easy" />
+            <item
+                android:id="@+id/action_dropdown6"
+                android:title="Medium" />
+            <item
+                android:id="@+id/action_dropdown7"
+                android:title="Hard" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_item_info"
+        android:icon="@drawable/information"
+        android:title="Information">
+
+        <menu>
+            <item
+                android:id="@+id/action_dropdown1"
+                android:title="Hours" />
+            <item
+                android:id="@+id/action_dropdown2"
+                android:title="Seasonal Attractions" />
+            <item
+                android:id="@+id/action_dropdown3"
+                android:title="Garden Statistics" />
+            <item
+                android:id="@+id/action_dropdown4"
+                android:title="Prohibited Items" />
+        </menu>
+    </item>
+
+    <item
+        android:title="Collections"
+        android:id="@+id/menu_item_collections"
+        android:icon="@drawable/collection" >
+        <menu >
+
+            <item android:title="Show All"
+                android:id="@+id/action_dropdown8" />
+        </menu>
+    </item>
+</menu>
