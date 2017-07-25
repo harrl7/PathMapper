@@ -1,5 +1,6 @@
 package bit.com.pathmapper.Activities;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +8,7 @@ import android.util.Log;
 import android.util.SparseArray;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+import android.view.View;
 import android.widget.TextView;
 
 import com.google.android.gms.vision.CameraSource;
@@ -46,6 +48,7 @@ public class BarCodeReaderActivity extends AppCompatActivity
 
         cameraView = (SurfaceView)findViewById(R.id.camera_view);
         cameraView.getHolder().addCallback(new SurfaceHolderSetUp());
+        cameraView.setOnClickListener(new ClickGotoInfoHandler());
     }
 
     // SurfaceView
@@ -116,5 +119,17 @@ public class BarCodeReaderActivity extends AppCompatActivity
 
 
 
+    }
+
+    // Goto info activity test
+    public class ClickGotoInfoHandler implements View.OnClickListener
+    {
+        @Override
+        public void onClick(View view)
+        {
+            Intent toInfoIntent = new Intent(BarCodeReaderActivity.this, ItemInfoActivity.class);
+            toInfoIntent.putExtra("ItemID", 0);
+            startActivity(toInfoIntent);
+        }
     }
 }
